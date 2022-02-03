@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnGetLC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="302dp"
+        android:text="Address"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="124dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="71dp"
+        android:textColor="#CA0D0D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAccuracy" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="36dp"
+        android:text="Accuracy"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAccuracy"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="116dp"
+        android:textColor="#E81616"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAltitude" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="30dp"
+        android:text="Altitude"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAltitude"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="116dp"
+        android:textColorHighlight="#CC1717"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLatitude" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="33dp"
+        android:text="Latitude"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="116dp"
+        android:textColor="#D81313"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLongitude" />
+
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="116dp"
+        android:textColorHighlight="#C80E0E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="116dp"
+        android:text="Your Location Specifications"
+        android:textColor="#031517"
+        android:textStyle="bold|italic"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="41dp"
+        android:text="Longitude"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="169dp"
+        android:text="GET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+</androidx.constraintlayout.widget.ConstraintLayout>
